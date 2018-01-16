@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SRDropDown_Tests' do
+  pod 'SRDropDown', :path => '../'
+  
+  
+end
