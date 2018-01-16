@@ -1,0 +1,6 @@
+framework module SRDropDown {
+  umbrella header "SRDropDown-umbrella.h"
+
+  export *
+  module * { export * }
+}

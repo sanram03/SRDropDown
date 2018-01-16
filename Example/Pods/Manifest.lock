@@ -1,0 +1,16 @@
+PODS:
+  - SRDropDown (0.1.0)
+
+DEPENDENCIES:
+  - SRDropDown (from `../`)
+
+EXTERNAL SOURCES:
+  SRDropDown:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SRDropDown: e63e787949831da9a5c94cd55bf00d748851d9d2
+
+PODFILE CHECKSUM: a2fb4fe58fc43a026fec3d592f17fcd0d0b20c32
+
+COCOAPODS: 1.3.1

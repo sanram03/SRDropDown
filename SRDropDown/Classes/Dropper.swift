@@ -1,18 +1,17 @@
 //
-//  DropDown.swift
-//  SimpleTestApp
+//  Dropper.swift
+//  Pods-SRDropDown_Tests
 //
-//  Created by Rim global on 29/12/17.
-//  Copyright © 2017 Rim global. All rights reserved.
-// Hello
+//  Created by Rim global on 16/01/18.
+//
 
 import UIKit
 
-protocol DropDownDelegate {
+public protocol DropDownDelegate {
     func didSelectValue(val:String)
 }
 
-@IBDesignable public class DropDown: UIView {
+@IBDesignable public class Dropper: UIView {
     
     var dropView : UITableView = {
         let droppingView = UITableView()
@@ -27,10 +26,10 @@ protocol DropDownDelegate {
         return lbl
     }()
     
-    var delegate : DropDownDelegate?
+    public var delegate : DropDownDelegate?
     
     var isExpended : Bool = true
-    var dataList = [String]()
+    public var dataList = [String]()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -102,7 +101,7 @@ protocol DropDownDelegate {
     
 }
 
-extension DropDown: UITableViewDelegate,UITableViewDataSource
+extension Dropper: UITableViewDelegate,UITableViewDataSource
 {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -131,6 +130,7 @@ extension DropDown: UITableViewDelegate,UITableViewDataSource
         
     }
 }
+
 
 
 

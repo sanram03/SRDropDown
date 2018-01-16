@@ -1,0 +1,22 @@
+{
+  "name": "SRDropDown",
+  "version": "0.1.0",
+  "summary": "A short description of SRDropDown.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sanram03/SRDropDown",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sanram03": "santhosh203kumar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sanram03/SRDropDown.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SRDropDown/Classes/**/*"
+}
